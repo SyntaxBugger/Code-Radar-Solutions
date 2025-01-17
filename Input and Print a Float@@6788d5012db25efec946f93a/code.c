@@ -3,7 +3,7 @@
 char* welcome() {
     return "Welcome to Code Radar!";
     float a;
-    scanf("%.2f",&a);
+    scanf("%f",&a);
     printf("%.2f",a);
 }
 
