@@ -4,7 +4,6 @@ char* welcome() {
     return "Welcome to Code Radar!";
     float a;
     scanf("%f",&a);
-    return a;
 }
 
 int main() {
