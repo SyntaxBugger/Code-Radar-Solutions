@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-char* welcome() {
-    int a;
-    scanf("%d",a);
-    return a;
-}
 
 int main() {
-    printf("You entered: %d\n", welcome());
+    int a;
+    scanf("%d",&a);
+    printf("You entered: %d\n",a);
     return 0;
 }
