@@ -5,17 +5,17 @@ int main() {
     scanf("%d %d %d",&a,&b,&c);
     if(a>b){
         if(a>c){
-            printf(a);
+            printf("%d",a);
         }
     }
     if(b>a){
         if(b>c){
-            printf(b);
+            printf("%d",b);
         }
     }
     if(c>a){
         if(c>b){
-            printf(c);
+            printf("%d",c);
         }
     }
     return 0;
