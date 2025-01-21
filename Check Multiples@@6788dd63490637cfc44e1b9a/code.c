@@ -6,7 +6,7 @@ int main() {
     if(b%a==0){
         printf("Yes");
     }else{
-        printf("No")
+        printf("No");
     }
     return 0;
 }
