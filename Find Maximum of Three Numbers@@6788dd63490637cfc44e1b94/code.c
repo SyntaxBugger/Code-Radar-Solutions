@@ -18,8 +18,6 @@ int main() {
             printf("%d",c);
         }
     }
-    else{
-        printf("Equal");
-    }
+    
     return 0;
 }
