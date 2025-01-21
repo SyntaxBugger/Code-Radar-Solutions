@@ -2,7 +2,7 @@
 
 int main() {
     int marks;
-    scanf("%d",&a);
+    scanf("%d",&marks);
     if(marks>=90){
         printf("A");
     }else if(marks<90 && marks>=80){
