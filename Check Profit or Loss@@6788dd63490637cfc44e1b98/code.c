@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int cpr,sellpr;
+    int cpr,sellpr,diff;
     scanf("%d %d",&cpr,&sellpr);
     diff=sellpr-cpr;
     if(diff>0){
