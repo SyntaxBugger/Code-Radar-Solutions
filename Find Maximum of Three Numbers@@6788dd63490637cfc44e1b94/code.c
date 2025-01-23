@@ -17,8 +17,6 @@ int main() {
         if(c>b){
             printf("%d",c);
         }
-    }else{
-        printf("Equal");
     }
     
     return 0;
