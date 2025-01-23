@@ -13,11 +13,9 @@ int main() {
             printf("%d",b);
         }
     }
-    if(c>a){
-        if(c>b){
-            printf("%d",c);
-        }
-    }
+   else{
+    printf("%d",c);
+   }
     
     return 0;
 }
