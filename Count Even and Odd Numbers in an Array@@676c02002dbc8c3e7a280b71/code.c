@@ -6,11 +6,11 @@ int main() {
     int oddcnt=0;
     scanf("%d",&n);
     int arr[n];
-    for(int i; i<=n; i++){
+    for(int i=0; i<n; i++){
         scanf("%d",&k);
         arr[i]=k;
     }
-    for(int i; i<=n; i++){
+    for(int i=0; i<n; i++){
         if(arr[i]%2==0){
             evencnt++;
         }else{
