@@ -1,21 +1,24 @@
 #include <stdio.h>
 
-bool primeNum(int n;){
+bool primeNum(int arr[a];){
     int cnt;
-    for(int i=1; i<=n; i++){
+    for(int i=1; i<=a; i++){
         if(n%i==0){
-            cnt++
+            cnt++;
         }
     }
-    if(cnt>2){
-        return true;
-    }else{
-        return false;
+    if(cnt<2){
+        return cnt;
     }
 }
 int main() {
-    int a;
+    int a, value;
+    int arr[a];
     scanf("%d",&a);
-    
+    for(int i; i<a; i++){
+        scanf("%d",&value);
+        arr[i]=value;
+    }
+    printf(primeNum(arr[a]));
     return 0;
 }
