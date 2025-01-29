@@ -8,9 +8,9 @@ int main() {
         arr[i]=k;
     }
     if(n%2!=0){
-        printf("%d",arr[(n+1)/2]);
+        printf("%d",arr[n/2]);
     }else{
-        printf("%d",arr[n/2]+ arr[(n/2)+1]/2);
+        printf("%d",arr[(n-1)/2]+ arr[(n/2)]/2.0);
     }
     return 0;
 }
