@@ -4,7 +4,7 @@
 int main() {
     char str[100];
     int cnt=0;
-    scanf("%s",str);
+    scanf("%s",&str);
     for(int i=0; i<strlen(str); i++){
         char c= tolower(str[i]);
     }
