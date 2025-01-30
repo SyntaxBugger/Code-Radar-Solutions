@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
+    int a,b,c;
     scanf("%d %d",&a,&b);
-    if(1&(1<<a)){
-        printf("%d",1);
-    }else{
-        printf("%d",0);
-    }
+    c=(a>>b)&1;
+    printf("%d",c);
     return 0;
 }
