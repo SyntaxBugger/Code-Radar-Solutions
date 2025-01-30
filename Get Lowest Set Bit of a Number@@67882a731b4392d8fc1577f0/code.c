@@ -8,6 +8,6 @@ int main() {
         n=n>>1;
         cnt++;
     }
-    printf("%d",cnt)
+    printf("%d",cnt);
     return 0;
 }
