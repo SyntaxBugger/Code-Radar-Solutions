@@ -4,7 +4,7 @@ struct students{
     int rno;
     char name[70];
     float marks;
-}
+};
 int main() {
     int n;
     float sum=0;
