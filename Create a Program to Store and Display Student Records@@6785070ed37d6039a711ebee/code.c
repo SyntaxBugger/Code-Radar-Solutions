@@ -16,7 +16,7 @@ int main() {
     for(int i=0; i<n; i++){
         printf("Roll Number: %d,",s1[i].rno);
         printf("Name: %s,",s1[i].name);
-        printf("Marks: %.2f",s1[i].mrks);
+        printf("Marks: %.2f\n",s1[i].mrks);
     }
     return 0;
 }
