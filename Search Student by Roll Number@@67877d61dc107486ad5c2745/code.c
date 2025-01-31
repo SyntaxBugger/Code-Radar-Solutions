@@ -17,8 +17,8 @@ int main() {
     int flag=0;
     for(int i=0; i<n; i++){
         if(s1[i].rno==search){
-            printf("Roll Number: %d,",s1[i].rno);
-            printf("Name: %s,",s1[i].name);
+            printf("Roll Number: %d, ",s1[i].rno);
+            printf("Name: %s, ",s1[i].name);
             printf("Marks: %.2f",s1[i].marks);
             flag=1;
         }
