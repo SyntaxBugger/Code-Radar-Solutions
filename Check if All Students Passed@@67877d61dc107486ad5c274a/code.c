@@ -13,9 +13,8 @@ int main() {
         scanf("%d %s %f",&s1[i].rno,s1[i].name,&s1[i].marks);
     }
     int flag=0;
-    float thold=50.00;
     for(int i=0; i<n; i++){
-        if(s1[i].marks==thold){
+        if(s1[i].marks>50.00){
             printf("All Passed");
             flag=1;
         }
