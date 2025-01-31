@@ -4,6 +4,7 @@
 int main() {  
     char a[89], b[78];
     scanf("%s %s",a,b);
+    if(strlen(a))
     for(int i=1; i<=strlen(a); i++){
         if(i in b && strlen(b)==strlen(a)){
             printf("Yes");
