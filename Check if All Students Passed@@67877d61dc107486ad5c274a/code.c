@@ -12,16 +12,16 @@ int main() {
     for(int i=0; i<n; i++){
         scanf("%d %s %f",&s1[i].rno,s1[i].name,&s1[i].marks);
     }
-    int flag=0;
+    int flag=1;
     for(int i=0; i<n; i++){
         if(s1[i].marks>50.0){
-            flag=1;
+            flag=0;
         }
     }
-    if(flag==0){
-        printf("Not All Passed");
-    }else{
+    if(flag==1){
         printf("All Passed");
+    }else{
+        printf("Not All Passed");
     }
     return 0;
 }
