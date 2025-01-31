@@ -11,10 +11,10 @@ int main() {
     int cnt=0;
     struct student s1[n];
     for(int i=0; i<n; i++){
-        scanf("%d %s %f",&s1[i].rno,s1[i].name,s1[i].marks);
+        scanf("%d %s %f",&s1[i].rno,s1[i].name,&s1[i].marks);
     }
     float thold;
-    scanf("%f",%thold);
+    scanf("%f",&thold);
     for(int i=0; i<n; i++){
         if(s1[i].marks>thold){
             cnt++;
