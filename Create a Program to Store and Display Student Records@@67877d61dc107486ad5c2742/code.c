@@ -8,7 +8,7 @@ struct student{
 int main() {
     int n;
     scanf("%d",&n);
-    struct student s1;
+    struct student s1[n];
     for(int i=0; i<n; i++){
         scanf("%d %s %f",&s1[i].rno,s1[i].name,&s1[i].marks);
     }
