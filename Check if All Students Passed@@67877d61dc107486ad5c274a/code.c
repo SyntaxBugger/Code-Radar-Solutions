@@ -14,7 +14,7 @@ int main() {
     }
     int flag=0;
     for(int i=0; i<n; i++){
-        if(s1[i].marks==50){
+        if(s1[i].marks==50.00){
             printf("All Passed");
             flag=1;
         }
