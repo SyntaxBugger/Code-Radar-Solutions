@@ -14,6 +14,6 @@ int main() {
         scanf("%d %s %f",&s[i].rno,s[i].name,&s[i].marks);
         sum+=s[i].marks;
     }
-    printf("Average Marks: %.2f",sum+/n);
+    printf("Average Marks: %.2f",sum/n);
     return 0;
 }
