@@ -11,8 +11,8 @@ int main() {
     scanf("%d",&n);
     struct student s1[n];
     for(int i=1; i<=n; i++){
-        scanf("%d ",&s1[i].rno);
-        scanf("%s ",s1[i].name);
+        scanf("%d",&s1[i].rno);
+        scanf(" %s ",s1[i].name);
         scanf("%f",&s1[i].mrks);
     }
     for(int i=1; i<=n; i++){
