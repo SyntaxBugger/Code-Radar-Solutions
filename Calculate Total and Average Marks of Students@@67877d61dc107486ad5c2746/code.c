@@ -15,6 +15,6 @@ int main() {
         sum+=s1[i].marks;
     }
     printf("Total Marks: %.2f\n",sum);
-    printf("Average Marks: %.2",sum/n);
+    printf("Average Marks: %.2f",sum/n);
     return 0;
 }
