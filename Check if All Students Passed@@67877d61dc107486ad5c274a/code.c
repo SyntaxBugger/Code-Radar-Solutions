@@ -15,12 +15,13 @@ int main() {
     int flag=0;
     for(int i=0; i<n; i++){
         if(s1[i].marks>50.0){
-            printf("All Passed");
             flag=1;
         }
     }
     if(flag==0){
         printf("Not All Passed");
+    }else{
+        printf("All Passed");
     }
     return 0;
 }
