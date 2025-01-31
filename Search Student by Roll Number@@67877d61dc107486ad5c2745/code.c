@@ -13,7 +13,7 @@ int main() {
         scanf("%d %s %f",&s1[i].rno,s1[i].name,&s1[i].marks);
     }
     int search;
-    scanf("%d",&search)
+    scanf("%d",&search);
     for(int i=0; i<n; i++){
         if(s1[i].rno==search){
             printf("Roll Number: %d,",s1[i].rno);
