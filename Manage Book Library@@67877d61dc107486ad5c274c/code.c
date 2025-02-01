@@ -7,7 +7,7 @@ struct books{
 };
 int main() {
     int n;
-    scanf("%d".&n);
+    scanf("%d",&n);
     struct books b1[n];
     for(int i=0; i<n; i++){
         scanf("%s %s %f",b1[i].title,b1[i].author,&b1[i].price);
