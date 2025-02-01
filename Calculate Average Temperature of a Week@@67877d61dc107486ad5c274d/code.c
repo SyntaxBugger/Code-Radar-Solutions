@@ -5,12 +5,13 @@ struct avgTemp{
     float temp;
 };
 int main() {
-    struct avgTemp a1[7];
+    int n=7;
+    struct avgTemp a1[n];
     int sum=0;
-    for(int i=0; i<7; i++){
+    for(int i=0; i<n; i++){
         scanf("%s %f",a1[i].day,&a1[i].temp);
         sum+=a1[i].temp;
     }
-    printf("Average Temperature: %.2f",sum/7);
+    printf("Average Temperature: %.2f",sum/n);
     return 0;
 }
