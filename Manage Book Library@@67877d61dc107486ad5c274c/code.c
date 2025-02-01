@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 struct books{
-    char title;
-    char author;
+    char title[69];
+    char author[69];
     float price;
 };
 int main() {
