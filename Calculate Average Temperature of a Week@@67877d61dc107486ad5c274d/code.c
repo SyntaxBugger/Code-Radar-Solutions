@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 struct avgTemp{
-    char day;
+    char day[69];
     float temp;
 };
 int main() {
