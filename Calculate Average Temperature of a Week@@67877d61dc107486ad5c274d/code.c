@@ -7,7 +7,7 @@ struct avgTemp{
 int main() {
     int n=7;
     struct avgTemp a1[n];
-    int sum=0;
+    float sum=0;
     for(int i=0; i<n; i++){
         scanf("%s %f",a1[i].day,&a1[i].temp);
         sum+=a1[i].temp;
