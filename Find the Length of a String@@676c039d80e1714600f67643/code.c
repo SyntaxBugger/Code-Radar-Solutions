@@ -5,7 +5,7 @@ int main() {
     char ch[100];
     scanf("%s",ch);
     int i;
-    while(str[i]!='\0'){
+    while(ch[i]!='\0'){
         i++;
     }
     printf("%d",i);
