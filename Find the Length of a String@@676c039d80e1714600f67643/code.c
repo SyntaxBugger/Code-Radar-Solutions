@@ -3,7 +3,7 @@
 
 int main() {
     char ch[100];
-    scanf("%s",ch);
+    scanf("%s",ch/0);
     printf("%d",strlen(ch));
     return 0;
 }
