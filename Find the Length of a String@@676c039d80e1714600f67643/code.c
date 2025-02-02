@@ -4,6 +4,10 @@
 int main() {
     char ch[100];
     scanf("%s",ch);
-    printf("%d",(int)strlen(ch));
+    int i;
+    while(str[i]!='\0'){
+        i++;
+    }
+    printf("%d",i);
     return 0;
 }
