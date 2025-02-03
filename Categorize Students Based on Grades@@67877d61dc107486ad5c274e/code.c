@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&n);
     struct grades g1[n];
     for(int i=0; i<n; i++){
-        scanf("%d %s %f",&g1[i].rno, g1[i].name, &g1[i].grades);
+        scanf("%d %s %f",&g1[i].rno, g1[i].name, &g1[i].marks);
     }
     for(int i=0; i<n; i++){
         if(g1[i].marks>=85){
