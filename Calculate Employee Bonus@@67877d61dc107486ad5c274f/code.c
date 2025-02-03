@@ -8,7 +8,7 @@ struct bonus{
 int main() {
     int n;
     scanf("%d",&n);
-    struct bonus b1;
+    struct bonus b1[n];
     for(int i=0; i<n; i++){
         scanf("%d %s %f",&b1[i].id,b1[i].name,&b1[i].sal);
     }
