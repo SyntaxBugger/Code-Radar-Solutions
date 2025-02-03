@@ -14,11 +14,11 @@ int main() {
     }
     for(int i=0; i<n; i++){
         if(g1[i].marks>=85){
-            printf("Roll Number: %d, Name: %s, Grade: %c\n",g1[i].rno,g1[i].name,'A');
+            printf("Roll Number: %d, Name: %s, Grade: A\n",g1[i].rno,g1[i].name);
         }else if(g1[i].marks<85 && g1[i].marks>=70){
-            printf("Roll Number: %d, Name: %s, Grade: %c\n",g1[i].rno,g1[i].name,'B');
+            printf("Roll Number: %d, Name: %s, Grade: B\n",g1[i].rno,g1[i].name);
         }else{
-            printf("Roll Number: %d, Name: %s, Grade: %c\n",g1[i].rno,g1[i].name,'C');
+            printf("Roll Number: %d, Name: %s, Grade: C\n",g1[i].rno,g1[i].name);
         }
     }
     return 0;
