@@ -15,9 +15,9 @@ int main() {
     }
     for(int i=0; i<n; i++){
         if(b1[i].sal<50000){
-            b1[i].bonus=(10/100)*b1[i].sal;
+            b1[i].bonus=b1[i].sal/10;
         }else{
-            b1[i].bonus=(5/100)*b1[i].sal;
+            b1[i].bonus=b1[i].sal/20;
         }
     }
     for(int i=0; i<n; i++){
