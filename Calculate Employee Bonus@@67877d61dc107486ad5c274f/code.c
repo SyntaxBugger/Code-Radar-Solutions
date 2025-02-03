@@ -14,7 +14,7 @@ int main() {
     }
     for(int i=0; i<n; i++){
         float bonus;
-        if(sal<50000){
+        if(b1[i]sal<50000){
             bonus=(10/100)*b1[i].sal;
             printf("Employee ID: %d, Name: %s, Bonus: %.2f",b1[i].id,b1[i].name,bonus);
         }else{
