@@ -3,7 +3,7 @@
 
 int main() {
     char name[69];
-    fgets(name,strlen(name),stdin)
+    fgets(name,sizeof(name),stdin)
     printf("%s",strrev(name));
     return 0;
 }
