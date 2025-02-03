@@ -4,7 +4,7 @@ struct bonus{
     int id;
     char name[69];
     float sal;
-}
+};
 int main() {
     int n;
     scanf("%d",&n);
