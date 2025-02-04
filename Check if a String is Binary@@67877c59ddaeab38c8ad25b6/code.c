@@ -10,10 +10,6 @@ int main() {
            flag=1;
         }
     }
-    if(flag=1){
-        printf("Yes");
-    }else{
-        printf("No");
-    }
+    (flag=1) ? printf("Yes"): printf("No");
     return 0;
 }
