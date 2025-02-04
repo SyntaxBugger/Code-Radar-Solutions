@@ -7,7 +7,8 @@ int main() {
     fgets(str,sizeof(str), stdin);
     scanf("%c",&toRep);
     for(int i=0; i<strlen(str); i++){
-        if(str[i]=='a' || 'e' || 'i' || 'o' || 'u' || 'A' || 'E' ||'O' ||'I'||'U'){
+        char c = str[i];
+        if(c=='a' || 'e' || 'i' || 'o' || 'u' || 'A' || 'E' ||'O' ||'I'||'U'){
             str[i]=toRep;
         }
     }
