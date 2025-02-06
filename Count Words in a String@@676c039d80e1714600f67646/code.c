@@ -4,7 +4,7 @@
 int main() {
     char str[69];
     int wcnt=0;
-    scanf("%s",str);
+    fgets(str, sizeof(str),stdin);
     for(int i=0; i<strlen(str); i++){
         if(str[i]=='' || str[i]=="\n" || str[i]=="\t"){
             wcnt++;
