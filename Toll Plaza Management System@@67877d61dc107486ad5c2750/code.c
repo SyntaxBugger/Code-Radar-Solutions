@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 struct toll{
     char plate[69];
     char car[69];
@@ -14,15 +15,12 @@ int main() {
         scanf("%s %s %f",t1[i].plate,t1[i].car,&t1[i].tollamt);
     }
     for(int i=0; i<n; i++){
-        if(t1[i].car=="Cars"){
+        if(strcmp(t1[i].car, "Cars") == 0){
             sum1+=t1[i].tollamt;
-            break;
-        }else if(t1[i].car=="Truck"){
+        }else if(strcmp(t1[i].car, "Trucks") == 0){
             sum2+=t1[i].tollamt;
-            break;
         }else{
             sum3+=t1[i].tollamt;
-            break;
         }
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",sum1,sum2,sum3);
