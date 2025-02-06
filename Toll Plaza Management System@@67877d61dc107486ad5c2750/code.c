@@ -16,10 +16,13 @@ int main() {
     for(int i=0; i<n; i++){
         if(t1[i].car=="Cars"){
             sum1+=t1[i].tollamt;
+            break;
         }else if(t1[i].car=="Truck"){
             sum2+=t1[i].tollamt;
+            break;
         }else{
             sum3+=t1[i].tollamt;
+            break;
         }
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",sum1,sum2,sum3);
