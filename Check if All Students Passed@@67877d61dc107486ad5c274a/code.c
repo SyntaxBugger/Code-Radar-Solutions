@@ -19,9 +19,9 @@ int main() {
         }
     }
     if(flag==1){
-        printf("All Passed");
-    }else{
         printf("Not All Passed");
+    }else{
+        printf("All Passed");
     }
     return 0;
 }
