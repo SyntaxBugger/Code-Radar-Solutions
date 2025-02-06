@@ -14,9 +14,9 @@ int main() {
         scanf("%s %s %f",t1[i].plate,t1[i].car,&t1[i].tollamt);
     }
     for(int i=0; i<n; i++){
-        if(t1[i].car=='Cars'){
+        if(t1[i].car=="Cars"){
             sum1+=t1[i].tollamt;
-        }else if(t1[i].car=='Truck'){
+        }else if(t1[i].car=="Truck"){
             sum2+=t1[i].tollamt;
         }else{
             sum3+=t1[i].tollamt;
