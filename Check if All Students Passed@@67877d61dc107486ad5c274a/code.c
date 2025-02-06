@@ -16,6 +16,7 @@ int main() {
     for(int i=0; i<n; i++){
         if(s1[i].marks>50.0){
             flag=0;
+            break;
         }
     }
     if(flag==1){
