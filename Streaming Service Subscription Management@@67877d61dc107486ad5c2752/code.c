@@ -27,6 +27,6 @@ int main() {
             pcnt++;
         }
     }
-    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; VIP: %d Users, Revenue: %.2f",bcnt,sum1,scnt,sum2,pcnt,sum3);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",bcnt,sum1,scnt,sum2,pcnt,sum3);
     return 0;
 }
