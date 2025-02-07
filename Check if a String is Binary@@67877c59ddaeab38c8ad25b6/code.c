@@ -5,6 +5,7 @@ int main() {
     char a[69];
     int flag=1;
     fgets(a,sizeof(a),stdin);
+    a[strcspn(a, "\n")] = '\0';
     if(a[0]=='\0'){
         printf("Yes");
     }
