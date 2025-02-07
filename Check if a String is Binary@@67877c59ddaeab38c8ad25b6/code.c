@@ -11,7 +11,7 @@ int main() {
            break;
         }
         if(a[i]=='\0'){
-            printf("Yes")
+            printf("Yes");
         }
     }
     (flag==0) ? printf("No"): printf("Yes");
