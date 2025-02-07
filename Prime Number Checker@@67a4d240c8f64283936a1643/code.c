@@ -3,7 +3,10 @@ int isPrime(num);
 
 int isPrime(num){
     int cnt=0;
-    for(int i=1; i<=num; i++){
+    if(n<=1){
+        return 0;
+    }else{
+        for(int i=1; i<=num; i++){
         if(num%i==0){
             cnt++;
         }
@@ -12,6 +15,7 @@ int isPrime(num){
         return 0;
     }else{
         return 1;
+    }
     }
 }
 int main() {
