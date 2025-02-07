@@ -6,7 +6,7 @@ int main() {
     char c[69];
     fgets(c,sizeof(c),stdin);
     for(i=0; i<strlen(c); i++){
-        if(c[i]==' '){
+        if(c[i]=='\0'){
             c[j++]=c[i];
         }
     }
