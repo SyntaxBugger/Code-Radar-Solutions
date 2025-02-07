@@ -6,7 +6,7 @@ int main() {
     int wcnt=0;
     fgets(str, sizeof(str),stdin);
     for(int i=0; i<strlen(str); i++){
-        if(str[i]==' ' || str[i]=="\n" || str[i]=="\t"){
+        if(str[i]=='\0' || str[i]=="\n" || str[i]=="\t"){
             wcnt++;
         }
     }
