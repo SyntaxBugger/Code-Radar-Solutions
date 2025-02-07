@@ -6,9 +6,9 @@ int isPrime( int num){
         return 0;
     }else{
         for(int i=1; i<=num; i++){
-        if(num%i==0){
-            cnt++;
-        }
+            if(num%i==0){
+                cnt++;
+            }
     }
     if(cnt>2){
         return 0;
