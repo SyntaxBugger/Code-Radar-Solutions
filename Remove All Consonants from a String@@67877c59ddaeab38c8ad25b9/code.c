@@ -10,8 +10,8 @@ int main() {
         if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u' || c=='A' || c=='E' ||c=='O' ||c=='I'||c=='U'){
             str[j++]=str[i];
         }
-        str[j]='\0';
     }
+    str[j]='\0';
     printf("%s",str);
     return 0;
 }
