@@ -8,7 +8,8 @@ int main() {
     for(int i=0; i<strlen(a); i++){
         if(a[i]!='0'&& a[i]!='1'){
            flag=0;
-        }else if(a[i]=='\0'){
+        }
+        if(a[i]=='\0'){
             flag=1;
         }
     }
