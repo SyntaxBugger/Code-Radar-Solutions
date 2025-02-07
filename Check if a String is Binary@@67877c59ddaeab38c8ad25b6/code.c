@@ -6,7 +6,7 @@ int main() {
     int flag=0;
     scanf("%s",a);
     for(int i=0; i<strlen(a); i++){
-        if(a[i]!='0'&& a[i]!='1' || a[i]="\n"){
+        if(a[i]!='0'&& a[i]!='1' || a[i]=="\n"){
            flag=1;
         }
     }
