@@ -7,7 +7,7 @@ int main() {
     fgets(str,sizeof(str), stdin);
     for(int i=0; i<strlen(str); i++){
         char c = str[i];
-        if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u' || c=='A' || c=='E' ||c=='O' ||c=='I'||c=='U'){
+        if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u' || c=='A' || c=='E' ||c=='O' ||c=='I'||c=='U' || c==' '){
             str[j++]=str[i];
         }
     }
