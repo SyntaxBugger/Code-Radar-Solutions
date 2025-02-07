@@ -8,14 +8,14 @@ int main() {
 
     if (isalpha(c)) {
         if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-            printf("The character is a vowel.\n");
+            printf("Vowel");
         } else {
-            printf("The character is a consonant.\n");
+            printf("Consonant");
         }
     } else if (isdigit(c)) {
-        printf("The character is a digit.\n");
+        printf("Digit");
     } else {
-        printf("The character is a special character.\n");
+        printf("Special Character");
     }
 
     return 0;
