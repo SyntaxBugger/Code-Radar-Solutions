@@ -9,8 +9,12 @@ int isPrime( int num){
             if(num%i==0){
                 cnt++;
             }
-    }
-   
+        }
+        if(cnt>2){
+            return 0;
+        }else{
+            return 1;
+        }
     }
 }
 int main() {
