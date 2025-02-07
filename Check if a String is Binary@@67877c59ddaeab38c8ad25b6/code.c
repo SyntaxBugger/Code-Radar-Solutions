@@ -4,7 +4,7 @@
 int main() {
     char a[69];
     fgets(a,sizeof(a),stdin);
-    if(strlen(a)==0){
+    if(fgets(a,sizeof(a),stdin)==NULL){
         printf("Yes");
     }
     int flag=1;
