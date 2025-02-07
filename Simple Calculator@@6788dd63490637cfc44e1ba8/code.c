@@ -3,7 +3,7 @@
 int main() {
     int a,b;
     char c;
-    scanf("%d %d %c",&a,&b,c);
+    scanf("%d %d %c",&a,&b,&c);
     if(c=='+'){
         printf("%d",a+b);
     }else if(c=='-'){
@@ -12,7 +12,7 @@ int main() {
         printf("%d",a*b);
     }else{
         if(b==0){
-            printf("Error");
+            printf("error");
         }else{
             printf("%d",a/b);
         }
