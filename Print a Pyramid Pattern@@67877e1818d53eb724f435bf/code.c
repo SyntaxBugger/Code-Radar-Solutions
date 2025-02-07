@@ -7,7 +7,7 @@ int main() {
         for(int j=n-i; j>=1; j--){
             printf(" ");
         }
-        for(int j=1; j<=2i-1;j++){
+        for(int j=1; j<=2(i-1);j++){
             printf("*");
         }
         
