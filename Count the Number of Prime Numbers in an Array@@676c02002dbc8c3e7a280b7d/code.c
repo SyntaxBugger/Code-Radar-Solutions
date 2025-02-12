@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int primeNum(int arr[a]){
+int primeNum(int arr[a], int a){
     int cnt;
     for(int i=1; i<a; i++){
         if(a%i==0){
@@ -19,6 +19,6 @@ int main() {
         scanf("%d",&value);
         arr[i]=value;
     }
-    printf(primeNum(arr[a]));
+    printf(primeNum(arr[a],a));
     return 0;
 }
