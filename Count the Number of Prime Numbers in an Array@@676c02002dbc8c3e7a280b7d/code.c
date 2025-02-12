@@ -2,7 +2,7 @@
 
 int isprimeNum(int a){
     int cnt=0;
-    for(int i=1; i<a; i++){
+    for(int i=2; i<a; i++){
         if(a%i==0){
             cnt++;
         }
