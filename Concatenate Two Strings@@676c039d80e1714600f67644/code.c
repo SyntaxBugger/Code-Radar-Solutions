@@ -4,8 +4,8 @@ int main() {
     char a[100], b[20];
     fgets(a, sizeof(a), stdin);
     fgets(b, sizeof(b), stdin);
-    str[strcspn(a, "\n")] = '\0';
-    str[strcspn(b, "\n")] = '\0';
+    a[strcspn(a, "\n")] = '\0';
+    b[strcspn(b, "\n")] = '\0';
     strcat(a, b);
     printf("%s\n", a);
     
