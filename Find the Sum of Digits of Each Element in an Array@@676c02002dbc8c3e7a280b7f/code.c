@@ -11,7 +11,7 @@ int main() {
     }
     for(int i=0; i<n; i++){
        sum+= arr[i]%10;
-       digit=digit/10;
+        arr[i]= arr[i]/10;
        printf("%d ",sum);
     }
     return 0;
