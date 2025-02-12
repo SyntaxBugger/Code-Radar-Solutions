@@ -13,8 +13,8 @@ int primeNum(int arr[a], int a){
 }
 int main() {
     int a, value;
-    int arr[a];
     scanf("%d",&a);
+    int arr[a];
     for(int i; i<a; i++){
         scanf("%d",&value);
         arr[i]=value;
