@@ -4,14 +4,10 @@ int isprimeNum(int a){
     int cnt=0;
     for(int i=2; i<a; i++){
         if(a%i==0){
-            cnt++;
+            return 0;
         }
     }
-    if(cnt>2){
-        return 0;
-    }else{
-        return 1;
-    }
+    return 1;
 }
 int primearr(int arr[], int a){
     int cnt=0;
