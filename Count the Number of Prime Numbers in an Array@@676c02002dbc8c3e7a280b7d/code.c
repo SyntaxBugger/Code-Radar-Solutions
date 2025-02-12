@@ -19,6 +19,6 @@ int main() {
         scanf("%d",&value);
         arr[i]=value;
     }
-    printf(primeNum(arr[a],a));
+    printf(primeNum(arr,a));
     return 0;
 }
