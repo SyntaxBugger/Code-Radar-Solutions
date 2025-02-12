@@ -30,6 +30,6 @@ int main() {
         scanf("%d",&value);
         arr[i]=value;
     }
-    printf(primearr(arr,a));
+    printf("%d",primearr(arr,a));
     return 0;
 }
