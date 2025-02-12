@@ -1,15 +1,25 @@
 #include <stdio.h>
 
-int primeNum(int arr[], int a){
+int isprimeNum(int a){
     int cnt=0;
     for(int i=1; i<a; i++){
         if(a%i==0){
             cnt++;
         }
     }
-    if(cnt<2){
-        return cnt;
+    if(cnt>2){
+        return 0;
+    }else{
+        return 1;
     }
+}
+int primearr(int arr[], int a){
+    for(int i=0; i<a; i++){
+        if(isprimeNum(a)){
+            cnt++;
+        }
+    }
+    return cnt;
 }
 int main() {
     int a, value;
@@ -19,6 +29,6 @@ int main() {
         scanf("%d",&value);
         arr[i]=value;
     }
-    printf(primeNum(arr,a));
+    printf(primearr(arr,a));
     return 0;
 }
