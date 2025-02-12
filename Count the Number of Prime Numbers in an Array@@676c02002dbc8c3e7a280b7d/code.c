@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int primeNum(int arr[], int a){
-    int cnt;
+    int cnt=0;
     for(int i=1; i<a; i++){
         if(a%i==0){
             cnt++;
