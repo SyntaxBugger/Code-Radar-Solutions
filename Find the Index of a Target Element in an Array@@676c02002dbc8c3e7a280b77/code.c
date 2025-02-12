@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(){
     int n,k; 
-    int cnt=0;
     scanf("%d %d",&n,&k);
     int arr[n];
     for(int i=0; i<n; i++){
@@ -14,5 +13,4 @@ int main(){
             printf("%d",i+1);
         }
     }
-    printf("%d",cnt);
 }
