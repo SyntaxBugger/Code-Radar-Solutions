@@ -14,6 +14,7 @@ int isprimeNum(int a){
     }
 }
 int primearr(int arr[], int a){
+    int cnt=0;
     for(int i=0; i<a; i++){
         if(isprimeNum(arr[i])){
             cnt++;
