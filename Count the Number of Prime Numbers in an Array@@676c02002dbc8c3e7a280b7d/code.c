@@ -2,6 +2,9 @@
 
 int isprimeNum(int a){
     int cnt=0;
+    if(a==1 || a==0){
+        return 0;
+    }
     for(int i=2; i<a; i++){
         if(a%i==0){
             return 0;
