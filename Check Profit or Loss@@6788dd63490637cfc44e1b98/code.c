@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int cpr,sellpr,diff;
+    int cpr,sellpr;
     scanf("%d %d",&cpr,&sellpr);
-    diff=sellpr-cpr;
-    if(diff>0){
-        printf("Profit");
-    }else if(diff<0){
-        printf("Loss");
-    }else{
-        printf("No Profit No Loss");
-    }
-    return 0;
+    if(cpr<sellpr){
+    printf("Profit");
+     }else if(cpr>sellpr){
+    printf("Loss");
+     }else{
+    printf("No Profit No Loss");
+    }return 0;
 }
