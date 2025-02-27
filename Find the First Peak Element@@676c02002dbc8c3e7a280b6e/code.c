@@ -23,8 +23,8 @@ int main() {
     if(flag==0){
         printf("%d",-1);
     }
-    if(arr[i-1]>arr[i-2]){
-        printf("%d",arr[i-1]);
+    if(arr[n-1]>arr[n-2]){
+        printf("%d",arr[n-1]);
     }
     return 0;
 }
