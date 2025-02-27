@@ -9,6 +9,9 @@ int main() {
         scanf("%d",&k);
         arr[i]=k;
     }
+    if(arr[0]>arr[1]){
+        printf("%d",arr[0]);
+    }
     int flag=0;
     for(int i=1; i<n-1; i++){
         if( arr[i]>arr[i-1] && arr[i]>arr[i+1]){
@@ -19,6 +22,9 @@ int main() {
     }
     if(flag==0){
         printf("%d",-1);
+    }
+    if(arr[i-1]>arr[i-2]){
+        printf("%d",arr[i-1]);
     }
     return 0;
 }
