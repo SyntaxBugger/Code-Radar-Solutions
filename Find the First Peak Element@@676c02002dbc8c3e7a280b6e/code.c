@@ -12,10 +12,13 @@ int main() {
     int flag=0;
     for(int i=1; i<n-1; i++){
         if( arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
             flag=1;
             break;
         }
     }
-    if(flag==1) ? printf("%d",arr[i]) : printf("%d",-1) ;
+    if(flag==0){
+        printf("%d",0);
+    }
     return 0;
 }
