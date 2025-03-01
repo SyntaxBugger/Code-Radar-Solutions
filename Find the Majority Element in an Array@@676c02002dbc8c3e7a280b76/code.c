@@ -17,9 +17,9 @@ int main(){
             }
         }
         if(cnt>n/2){
-            printf("%d",-1);
+            printf("%d",a);
         }
     }
-    printf("%d",-1);
+    printf("-1\n");
     return 0;
 }
