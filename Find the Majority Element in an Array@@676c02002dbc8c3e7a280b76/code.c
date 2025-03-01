@@ -18,6 +18,7 @@ int main(){
         }
         if(cnt>n/2){
             printf("%d",a);
+            break;
         }
     }
     printf("-1\n");
