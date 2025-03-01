@@ -6,7 +6,7 @@ int main(){
     for(int i=0; i<n; i++){
         int values;
         scanf("%d",&values);
-        nums[i]==values;
+        nums[i]=values;
     }
     for(int i=0; i<n; i++){
         int a=nums[i];
