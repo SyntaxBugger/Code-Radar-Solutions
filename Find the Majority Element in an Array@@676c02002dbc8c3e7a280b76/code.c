@@ -16,8 +16,8 @@ int main(){
                 cnt++;
             }
         }
-        if(cnt==n/2){
-            printf("%d",a);
+        if(cnt>n/2){
+            printf("%d",-1);
         }
     }
     printf("%d",-1);
