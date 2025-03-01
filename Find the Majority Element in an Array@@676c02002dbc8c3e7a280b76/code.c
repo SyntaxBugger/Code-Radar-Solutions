@@ -12,7 +12,7 @@ int main(){
         int a=nums[i];
         int cnt=0;
         for(int j=0; j<n; j++){
-            if(nums[j]==a){
+            if(a==nums[j]){
                 cnt++;
             }
         }
