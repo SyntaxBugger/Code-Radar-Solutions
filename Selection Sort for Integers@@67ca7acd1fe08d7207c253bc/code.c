@@ -11,5 +11,9 @@ int selectionSort(int arr[],int n){
         arr[min]=arr[i];
         arr[i]=arr[min];
     }
-    return arr;
+}
+int printArray(int arr[],int n){
+    for(int i=0; i<n; i++){
+        printf("%d ",i);
+    }
 }
