@@ -12,6 +12,6 @@ int selectionSort(int arr[],int n){
         arr[j]=arr[min];
     }
     for(int i=0 ; i<n; i++){
-        printf("%d ",i);
+        return i;
     }
 }
