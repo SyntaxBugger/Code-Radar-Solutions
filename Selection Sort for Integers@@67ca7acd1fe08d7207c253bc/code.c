@@ -5,6 +5,8 @@ void selectionSort(int arr[],int n){
         for(int j=i; j<n-1; j++){
             if(arr[j]<arr[min]){
                 min=j;
+            }else{
+                min=i;
             }
         }
         int temp=arr[i];
