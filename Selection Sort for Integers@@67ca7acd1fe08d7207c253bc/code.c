@@ -11,7 +11,5 @@ int selectionSort(int arr[],int n){
         arr[min]=arr[i];
         arr[i]=arr[min];
     }
-    for(int i=0 ; i<n; i++){
-        return i;
-    }
+    return arr;
 }
