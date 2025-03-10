@@ -8,8 +8,8 @@ int selectionSort(int arr[],int n){
             }
         }
         int temp=arr[min];
-        arr[min]=arr[j];
-        arr[j]=arr[min];
+        arr[min]=arr[i];
+        arr[i]=arr[min];
     }
     for(int i=0 ; i<n; i++){
         return i;
